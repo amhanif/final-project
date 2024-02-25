@@ -20,8 +20,8 @@ export default function Page({ params }: { params: { id: string } }) {
             <Image
               src={product.image}
               alt={product.name}
-              height={400}
-              width={400}
+              height={500}
+              width={500}
             />
           </div>
           <div className="flex flex-col">
