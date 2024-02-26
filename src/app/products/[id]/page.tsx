@@ -1,6 +1,5 @@
 import { Products } from "@/utils/mock";
 import Image from "next/image";
-import { StaticImageData } from "next/image";
 import Quantity from "@/components/Quantity";
 
 const getProductDetail = (id: number | string) => {
