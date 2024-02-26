@@ -21,7 +21,7 @@ function ProductList() {
 
   return (
     <>
-      <div className="m-10 grid grid-cols-3 gap-10 rounded-md">
+      <div className="m-10 grid grid-cols-3 gap-8 rounded-md">
         {productChunk.map((product) => (
           <ProductCard
             key={product.id}
